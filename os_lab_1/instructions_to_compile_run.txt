@@ -1,0 +1,13 @@
+For C file:
+	- gcc file_name.c -o executable_name && ./executable_name
+
+For C++ file:
+	- g++ file_name.cpp -o executable_name && ./executable_name
+
+For Python file:
+	- python file_name.py
+
+For Java file:
+	- If you have not installed Java Development Kit (JDK) then, install it using sudo pacman -S jdk-openjdk and then you will have "javac" in your system, check it using javac --version.
+	- javac file_name.java (this is compiling)
+	- java file_name (this is running the executable_name)
