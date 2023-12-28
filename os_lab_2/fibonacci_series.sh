@@ -7,12 +7,12 @@ b=1
 counter=2
 
 echo "Fibonacci series upto $num_of_terms terms:"
-echo -n "$a, $b"
+echo -n "$a, $b" # -n is to display without newline at last
 while [ $counter -lt $num_of_terms ]; do
 
 	#Calculate next_term
-	next_term=$((a+b))
-	echo -n ", $next_term"
+	next_term=$((a+b)) # Use $(()) to calculate and assign
+	echo -n ", $next_term" 
 
 	#Update value
 	a=$b
